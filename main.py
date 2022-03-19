@@ -54,7 +54,7 @@ for item in dir_movie:
     print(item)
 
 #Deleting all values from table 'movies'
-cr.execute('DELETE FROM movies')
+#cr.execute('DELETE FROM movies')
 
 #committing the above commands
 conn.commit()
